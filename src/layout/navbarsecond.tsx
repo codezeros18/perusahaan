@@ -11,19 +11,71 @@ const NavBar = () => {
   const [menuLevel, setMenuLevel] = useState(0);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
 
-  interface NavItem {
-    label: string;
-    subItems: string[];
-  }
+  interface SubItem {
+  name: string;
+  path: string;
+}
 
-  const navItems: NavItem[] = [
-    { label: "Boiler Systems", subItems: ["Fluidized Bed Boiler", "CFBC", "Chain Grate Boiler", "Reciprocrating Grate Boiler", "Gas & Oil Boiler", "Thermal Oil Boiler", "Boiler Part"] },
-    { label: "Energy Solutions", subItems: ["Power Plant"] },
-    { label: "Projects", subItems: ["Engineering", "Construction"] },
-    { label: "Smart Technology", subItems: ["Automation", "IoT"] },
-    { label: "After Sales", subItems: ["Maintenance & Services", "Spareparts"] },
-    { label: "Company", subItems: ["About Us", "Contact"] },
-  ];
+interface NavItem {
+  label: string;
+  path: string;
+  subItems: SubItem[];
+}
+
+const navItems: NavItem[] = [
+  {
+    label: "Boiler Systems",
+    path: "boiler-systems",
+    subItems: [
+      { name: "Fluidized Bed Boiler", path: "fluidized-bed-boiler" },
+      { name: "CFBC", path: "cfbc" },
+      { name: "Chain Grate Boiler", path: "chain-grate-boiler" },
+      { name: "Reciprocrating Grate Boiler", path: "reciprocrating-grate-boiler" },
+      { name: "Gas & Oil Boiler", path: "gas-oil-boiler" },
+      { name: "Thermal Oil Boiler", path: "thermal-oil-boiler" },
+      { name: "Boiler Part", path: "boiler-part" },
+    ],
+  },
+  {
+    label: "Energy Solutions",
+    path: "energy-solutions",
+    subItems: [
+      { name: "Power Plant", path: "power-plant" },
+    ],
+  },
+  {
+    label: "Projects",
+    path: "projects",
+    subItems: [
+      { name: "Engineering", path: "engineering" },
+      { name: "Construction", path: "construction" },
+    ],
+  },
+  {
+    label: "Smart Technology",
+    path: "smart-technology",
+    subItems: [
+      { name: "Automation", path: "automation" },
+      { name: "IoT", path: "iot" },
+    ],
+  },
+  {
+    label: "After Sales",
+    path: "after-sales",
+    subItems: [
+      { name: "Maintenance & Services", path: "maintenance-services" },
+      { name: "Spareparts", path: "spareparts" },
+    ],
+  },
+  {
+    label: "Company",
+    path: "company",
+    subItems: [
+      { name: "About Us", path: "about" },
+      { name: "Contact", path: "contact" },
+    ],
+  },
+];
 
   const openSubMenu = (label: NavItem["label"]) => {
     setActiveMenu(label);
@@ -41,7 +93,7 @@ const NavBar = () => {
       <div className="max-w-6xl mx-auto flex justify-between items-center px-4 py-1">
         {/* Logo */}
         <Link to="/">
-          <img src={Logo} alt="Logo" className="h-10 lg:h-20" />
+          <img src={Logo} alt="Logo" className="h-10 lg:h-[92px]" />
         </Link>
 
         {/* Desktop Menu */}
@@ -76,11 +128,11 @@ const NavBar = () => {
                 {item.subItems.map((sub, i) => (
                   <Link
                     key={i}
-                    to="/"
+                    to={`/${item.path}/${sub.path}`} // ini dinamis
                     className="block px-4 py-3 hover:bg-[#F37021] transition-colors duration-200 hover:text-white"
                   >
                     <span className="block text-[12px] transition-transform duration-200 ease-out group/item hover:translate-x-2">
-                      {sub}
+                      {sub.name}
                     </span>
                   </Link>
                 ))}
@@ -191,14 +243,14 @@ const NavBar = () => {
                   ?.subItems.map((sub, idx) => (
                     <Link
                       key={idx}
-                      to="/"
+                      to={`/${navItems.find((m) => m.label === activeMenu)?.path}/${sub.path}`}
                       className="block pr-6 ml-6 py-3 border-b-[0.1px] border-b-gray-300 text-[14px] leading-[20px] font-[400] tracking-tight text-[#333333] border-gray-200"
                       onClick={() => {
                         setIsOpen(false);
                         setMenuLevel(0);
                       }}
                     >
-                      {sub}
+                      {sub.name}
                     </Link>
                   ))}
               </motion.div>

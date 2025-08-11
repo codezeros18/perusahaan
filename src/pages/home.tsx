@@ -20,6 +20,9 @@ const Home = () => {
         <div className='my-auto'>
           <Card />
         </div>
+        {/* <div className='my-auto'>
+          <Gallery />
+        </div> */}
         <div className='my-auto'>
           <Sub />
         </div>

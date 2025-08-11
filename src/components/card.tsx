@@ -35,9 +35,9 @@ const card = () => {
 
   return (
     <div className="flex justify-center text-[#333333] font-montserrat">
-      <div className="max-w-6xl mx-2 lg:mx-auto mt-10 lg:mt-18 px-4 text-center">
+      <div className="max-w-6xl mx-2 lg:mx-auto mt-10 lg:mt-18 px-2 lg:px-10 text-center">
         {/* Heading */}
-        <h2 className="mx-auto max-w-[20rem] lg:max-w-3xl text-[36px] leading-[35px] tracking-[1px] font-[400] mb-4">
+        <h2 className="mx-auto max-w-[20rem] lg:max-w-3xl text-[30px] lg:text-[36px] leading-[35px] tracking-[1px] font-[400] mb-4">
           YOUR SINGLE SOURCE SOLUTION
         </h2>
 
@@ -52,7 +52,7 @@ const card = () => {
         <div className="h-[3px] w-14 bg-[#F37021] mx-auto mt-5 lg:mt-7 mb-4 md:mb-8" />
 
         {/* Card Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-16 gap-y-8 my-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-14 gap-y-8 my-14">
           {cards.map((card, idx) => (
             <Link
               key={idx}
@@ -63,10 +63,10 @@ const card = () => {
               <img
                 src={card.image}
                 alt={card.title}
-                className="w-full h-96 lg:h-56 object-cover"
+                className="w-full h-80 lg:h-56 object-cover"
               />
               {/* Text */}
-              <div className="p-10 text-center">
+              <div className="py-12 lg:py-10 px-4 lg:px-10 text-center">
                 <h3 className="text-[28px] font-[400] tracking-[2.8px] leading-[34px] mb-2 text-[#333333] uppercase">
                   {card.title}
                 </h3>
