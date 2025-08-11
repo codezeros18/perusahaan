@@ -50,7 +50,7 @@ const NavBar = () => {
             <div key={idx} className="group relative cursor-pointer">
               {/* Label */}
               <div className="flex flex-col items-center">
-                <span className="flex items-center gap-1 text-[15px] text-white/90 font-bold py-4 transition-colors duration-300 group-hover:text-[#F37021] relative">
+                <span className="flex items-center gap-1 text-[15px] text-white/85 font-[700] leading-[33px] tracking-[0.5px] py-4 transition-colors duration-300 group-hover:text-[#F37021] relative">
                   {item.label}
                   <BiChevronDown />
                   {/* Underline animation */}

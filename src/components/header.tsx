@@ -57,6 +57,8 @@ const Header = () => {
           nextEl: '.custom-next',
           prevEl: '.custom-prev',
         }}
+        allowTouchMove={false} // ❌ Matikan swipe di HP
+        simulateTouch={false}  // ❌ Matikan drag di desktop
         onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
         className="w-full h-full mt-6 md:mt-0"
       >
@@ -78,21 +80,21 @@ const Header = () => {
                       initial={{ opacity: 0, x: -40 }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: 0.2, duration: 0.4 }}
-                      className="text-[16px] md:text-[61px] leading-[20px] md:leading-[76px] font-bold text-white whitespace-pre-line">
+                      className="text-[16px] md:text-[61px] tracking-normal leading-[20px] md:leading-[76px] font-bold text-white whitespace-pre-line">
                           {slide.title}
                       </motion.h1>
                       <motion.p
                       initial={{ opacity: 0, x: -40 }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: 0.3, duration: 0.4 }}
-                      className="mt-2 md:mt-6 text-[6px] md:text-[23px] leading-[6px] md:leading-[23px] font-light text-white/90 whitespace-pre-line">
+                      className="mt-2 md:mt-6 text-[6px] md:text-[23px] leading-[6px] md:leading-[23px] font-[300] text-white/90 whitespace-pre-line">
                           {slide.subtitle}
                       </motion.p>
                       <motion.button
                       initial={{ opacity: 0, x: -40 }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: 0.4, duration: 0.4 }}
-                      className="mt-4 md:mt-14 text-[#F37021] text-[4px] md:text-[15px] font-bold px-3 py-1 md:px-6 md:py-2 hover:text-gray-700 transition duration-500 cursor-pointer hover:bg-white rounded-sm ml-1 md:ml-8">
+                      className="mt-4 md:mt-12 text-[#F37021] text-[4px] md:text-[15px] font-bold px-3 py-1 md:px-6 md:py-2 hover:text-gray-700 transition duration-500 cursor-pointer hover:bg-white rounded-sm">
                           LEARN MORE &gt;
                       </motion.button>
                     </div>
