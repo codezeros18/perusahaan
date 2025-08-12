@@ -1,6 +1,6 @@
 // import React from 'react'
 import { Link } from 'react-router-dom';
-import card1 from '../assets/gaoi4a.jpg'
+import card1 from '../assets/gaoi3a.jpg'
 import card2 from '../assets/pp1.jpg'
 import card3 from '../assets/servmec3.jpg'
 import card4 from '../assets/au6.jpg'

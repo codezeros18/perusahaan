@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import GalleryCard from "./gallerycard"; // path sesuai struktur project
-import card1 from "../assets/pp1.jpg";
+import card1 from "../assets/pp2.jpeg";
 import card2 from "../assets/aboutus4.png";
 import card3 from "../assets/servmec2.jpg";
 import card4 from "../assets/au6.jpg";
 import card5 from "../assets/au11.jpg";
 import card6 from "../assets/main1.jpeg";
-import card7 from "../assets/sparepart.png";
+import card7 from "../assets/fbc2.jpeg";
 import card8 from "../assets/esp1a.jpg";
 import card9 from "../assets/gaoi4a.jpg";
 import card10 from "../assets/cfbc2.jpg";
@@ -18,7 +18,7 @@ const divisions = [
   { title: "Automation", image: card4, link: "/power-plant" },
   { title: "IoT", image: card5, link: "/power-plant" },
   { title: "Maintenance", image: card6, link: "/power-plant" },
-  { title: "Spare Parts", image: card7, link: "/power-plant" },
+  { title: "Fluidized Bed Boiler", image: card7, link: "/power-plant" },
   { title: "Boiler Part", image: card8, link: "/power-plant" },
   { title: "Gas & Oil Boiler", image: card9, link: "/power-plant" },
   { title: "CFBC", image: card10, link: "/power-plant" },
@@ -43,13 +43,13 @@ export default function Gallery() {
       {/* Gallery Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
         {divisions.map((item, index) => (
-<Link
-  to={item.link}
-  key={index}
-  className="block overflow-hidden h-[65vh] lg:h-96"
->
-  <GalleryCard item={item} />
-</Link>
+          <Link
+            to={item.link}
+            key={index}
+            className="block overflow-hidden h-[65vh] lg:h-96"
+          >
+            <GalleryCard item={item} />
+          </Link>
         ))}
       </div>
     </div>
