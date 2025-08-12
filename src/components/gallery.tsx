@@ -43,13 +43,13 @@ export default function Gallery() {
       {/* Gallery Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
         {divisions.map((item, index) => (
-          <Link
-            to={item.link}
-            key={index}
-            className="block overflow-hidden"
-          >
-            <GalleryCard item={item} />
-          </Link>
+<Link
+  to={item.link}
+  key={index}
+  className="block overflow-hidden h-[65vh] lg:h-96"
+>
+  <GalleryCard item={item} />
+</Link>
         ))}
       </div>
     </div>

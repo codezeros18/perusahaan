@@ -49,14 +49,14 @@ export default function GalleryCard({ item }: GalleryCardProps) {
       </div>
 
       {/* Desktop */}
-<div className="absolute top-0 bottom-0 left-0 right-0 hidden md:flex items-center justify-center group pointer-events-none">
-  {/* Background muncul saat hover */}
+{/* Desktop */}
+<div className="absolute top-0 bottom-0 left-0 right-0 hidden md:grid place-items-center group pointer-events-none">
   <div className="absolute top-0 bottom-0 left-0 right-0 bg-orange-500/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-auto" />
-  {/* Border selalu ada */}
   <div className="border border-white p-4 text-white font-semibold text-center tracking-widest uppercase z-10 pointer-events-auto">
     {item.title}
   </div>
 </div>
+
 
     </Link>
   );
