@@ -22,13 +22,6 @@ html, body {
   padding: 0;
 }
 
-img, video, canvas {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-}
-
 
 /* a {
   font-weight: 500;

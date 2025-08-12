@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import GalleryCard from "./gallerycard"; // path sesuai struktur project
 import card1 from "../assets/pp2.jpeg";
 import card2 from "../assets/aboutus4.png";
 import card3 from "../assets/servmec2.jpg";
@@ -38,19 +37,6 @@ export default function Gallery() {
           the boiler room, each led by highly skilled veteran technicians with
           over 20 years at IB&M. Our cross-industry service divisions include:
         </p>
-      </div>
-
-      {/* Gallery Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
-        {divisions.map((item, index) => (
-          <Link
-            to={item.link}
-            key={index}
-            className="block overflow-hidden h-[65vh] lg:h-96"
-          >
-            <GalleryCard item={item} />
-          </Link>
-        ))}
       </div>
     </div>
   );
