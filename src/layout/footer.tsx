@@ -1,5 +1,6 @@
 // import React from 'react';
 import MicroWat from '../assets/microwatt-logo.png';
+import { FiChevronRight } from "react-icons/fi";
 
 const footer = () => {
   // Data Arrays
@@ -24,7 +25,7 @@ const footer = () => {
 
   return (
     <>
-      <footer className="bg-footer text-white/80 px-3 lg:px-6 py-10 md:py-20 font-dm">
+      <footer className="bg-footer text-white/70 px-3 lg:px-6 py-10 md:py-20 font-dm">
         <div className="max-w-6xl mx-auto px-1 md:px-6 grid md:grid-cols-4 gap-10 text-sm">
 
           {/* CONTACT */}
@@ -36,8 +37,8 @@ const footer = () => {
             </p>
             <ul className="space-y-1">
               {contactInfo.map((item, idx) => (
-                <li key={idx}>
-                  ➤{' '}
+                <li key={idx} className="flex items-center gap-2">
+                  <FiChevronRight className="text-white flex-shrink-0" />
                   {item.type === 'link' ? (
                     <>
                       {item.text}
@@ -62,7 +63,10 @@ const footer = () => {
             </p>
             <ul className="space-y-1">
               {services.map((service, idx) => (
-                <li key={idx}>➤ {service}</li>
+                <li key={idx} className="flex items-center gap-2">
+                  <FiChevronRight className="text-white" />
+                  <span>{service}</span>
+                </li>
               ))}
             </ul>
           </div>
@@ -74,7 +78,10 @@ const footer = () => {
             <p className="text-[14px] leading-[25px] font-[400] tracking-wide mb-2">AEI has 2 service locations:</p>
             <ul className="space-y-1">
               {locations.map((loc, idx) => (
-                <li key={idx}>➤ {loc}</li>
+                <li key={idx} className="flex items-center gap-2">
+                  <FiChevronRight className="text-white flex-shrink-0" />
+                  <span>{loc}</span>
+                </li>
               ))}
             </ul>
           </div>

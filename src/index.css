@@ -83,6 +83,11 @@ button:focus-visible {
   .font-anton {
   font-family: 'Anton', sans-serif;
 }
+.font-italic {
+  font-family: 'DM Sans', sans-serif;
+  font-style: italic;
+}
+
 
 .font-archivo-black {
   font-family: 'Archivo Black', sans-serif;

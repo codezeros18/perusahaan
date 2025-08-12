@@ -94,8 +94,8 @@ const Header = () => {
                         initial={{ opacity: 0, x: -40 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: 0.4, duration: 0.4 }}
-                        className="mt-4 lg:mt-12 text-[#F37021] text-[4px] lg:text-[15px] font-bold px-3 py-1 lg:px-6 lg:py-2 hover:text-gray-700 transition duration-500 cursor-pointer hover:bg-white rounded-sm">
-                            LEARN MORE &gt;
+                        className="mt-4 lg:mt-12 text-[#F37021] text-[4px] lg:text-[15px] font-bold px-3 py-1 lg:px-6 lg:py-2 hover:text-gray-700 transition duration-500 cursor-pointer hover:bg-white border-[1px] border-[#333333] rounded-sm">
+                            LEARN MORE
                         </motion.button>
                       </div>
                   </div>

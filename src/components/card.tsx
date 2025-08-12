@@ -1,37 +1,39 @@
 // import React from 'react'
 import { Link } from 'react-router-dom';
 import card1 from '../assets/gaoi4a.jpg'
-import card2 from '../assets/au6.jpg'
+import card2 from '../assets/pp1.jpg'
 import card3 from '../assets/servmec3.jpg'
-import card4 from '../assets/main1.jpeg'
+import card4 from '../assets/au6.jpg'
 
 const card = () => {
   const cards = [
-    {
-      image: card1,
-      title: "Boiler",
-      description: "Solutions for boiler systems and power plant operations",
-      link: "/boiler"
-    },
-    {
-      image: card2,
-      title: "Auto",
-      description: "Industrial automation and IoT integration for smart systems",
-      link: "/auto"
-    },
-    {
-      image: card3,
-      title: "Build",
-      description: "Engineering and construction projects for industrial needs",
-      link: "/build"
-    },
-    {
-      image: card4,
-      title: "Service",
-      description: "Comprehensive maintenance, service, and repair solutions",
-      link: "/service"
-    },
-  ];
+  {
+    image: card1,
+    title: "Boiler",
+    description: "Efficient, reliable boiler solutions for industry.",
+    link: "/boiler"
+  },
+  {
+    image: card2,
+    title: "Energy",
+    description: "Sustainable power systems for a better future.",
+    link: "/auto"
+  },
+  {
+    image: card3,
+    title: "Infra",
+    description: "Smart engineering for lasting infrastructure.",
+    link: "/build"
+  },
+  {
+    image: card4,
+    title: "Smart",
+    description: "Automation and IoT to boost performance.",
+    link: "/service"
+  },
+];
+
+
 
   return (
     <div className="flex justify-center text-[#333333] font-montserrat">
@@ -70,7 +72,7 @@ const card = () => {
                 <h3 className="text-[28px] font-[400] tracking-[2.8px] leading-[34px] mb-2 text-[#333333] uppercase">
                   {card.title}
                 </h3>
-                <p className="text-[14px] leading-[25.2px] tracking-[0.5px] opacity-80 text-[#333333]/90 group-hover:text-white">
+                <p className="text-[14px] px-2 md:px-0 leading-[25.2px] tracking-[0.5px] opacity-80 text-[#333333]/90 group-hover:text-white">
                   {card.description}
                 </p>
               </div>

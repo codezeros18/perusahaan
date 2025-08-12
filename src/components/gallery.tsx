@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import GalleryCard from "./gallerycard"; // path sesuai struktur project
 import card1 from "../assets/pp1.jpg";
 import card2 from "../assets/aboutus4.png";
@@ -42,7 +43,13 @@ export default function Gallery() {
       {/* Gallery Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
         {divisions.map((item, index) => (
-          <GalleryCard key={index} item={item} />
+          <Link
+            to={item.link}
+            key={index}
+            className="block overflow-hidden"
+          >
+            <GalleryCard item={item} />
+          </Link>
         ))}
       </div>
     </div>

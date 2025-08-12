@@ -6,6 +6,7 @@ import Card from '../components/card'
 import Map from '../components/map'
 import Gallery from '../components/gallery'
 import Sub from '../components/sub'
+import HomeClose from '../components/homeclose'
 
 const Home = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -25,6 +26,9 @@ const Home = () => {
         </div>
         <div className='my-auto'>
           <Gallery />
+        </div>
+        <div className='my-auto'>
+          <HomeClose />
         </div>
         <div>
           <Map />
