@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { useState } from "react";
-
 interface GalleryCardItem {
   link: string;
   image: string;
@@ -13,7 +11,6 @@ interface GalleryCardProps {
 }
 
 export default function GalleryCard({ item }: GalleryCardProps) {
-  const [isActive, setIsActive] = useState(false);
 
   return (
     <Link
