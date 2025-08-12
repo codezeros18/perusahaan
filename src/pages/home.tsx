@@ -4,7 +4,7 @@ import Header from '../components/header'
 import Footer from '../layout/footer'
 import Card from '../components/card'
 import Map from '../components/map'
-// import Gallery from '../components/gallery'
+import Gallery from '../components/gallery'
 import Sub from '../components/sub'
 
 const Home = () => {
@@ -20,11 +20,11 @@ const Home = () => {
         <div className='my-auto'>
           <Card />
         </div>
-        {/* <div className='my-auto'>
-          <Gallery />
-        </div> */}
         <div className='my-auto'>
           <Sub />
+        </div>
+        <div className='my-auto'>
+          <Gallery />
         </div>
         <div>
           <Map />

@@ -38,7 +38,7 @@ const slides = [
 const Header = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
-    <div className="relative w-full h-[35vh] md:h-screen overflow-hidden font-dm group">
+    <div className="relative w-full h-[35vh] lg:h-screen overflow-hidden font-dm group">
       {/* Navigation Arrows */}
       <button className="custom-prev absolute left-4 top-1/2 -translate-y-1/2 z-20 text-white cursor-pointer text-[12px] leading-[40px] md:text-2xl p-4 -mx-4 mt-8 bg-black/20 hover:bg-white hover:text-gray-700 transition-opacity duration-300 opacity-0 group-hover:opacity-100">
         <FaChevronLeft />
@@ -65,7 +65,7 @@ const Header = () => {
         {slides.map((slide, index) => (
         <SwiperSlide key={index}>
             <div
-                className="relative h-[35vh] md:h-screen bg-cover bg-center flex items-center justify-start"
+                className="relative h-[35vh] lg:h-screen bg-cover bg-center flex items-center justify-start"
                 style={{ backgroundImage: `url(${slide.image})` }}
             >
                 {/* Overlay */}
@@ -74,31 +74,31 @@ const Header = () => {
 
                 {/* Slide Content */}
                 <div className="relative z-10 w-full">
-                <div className="max-w-7xl mx-auto pl-12 px-4">
-                    <div key={activeIndex} className="max-w-4xl md:pl-12">
-                      <motion.h1 
-                      initial={{ opacity: 0, x: -40 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ delay: 0.2, duration: 0.4 }}
-                      className="text-[16px] md:text-[61px] tracking-normal leading-[20px] md:leading-[76px] font-bold text-white whitespace-pre-line">
-                          {slide.title}
-                      </motion.h1>
-                      <motion.p
-                      initial={{ opacity: 0, x: -40 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ delay: 0.3, duration: 0.4 }}
-                      className="mt-2 md:mt-6 text-[6px] md:text-[23px] leading-[6px] md:leading-[23px] font-[300] text-white/90 whitespace-pre-line">
-                          {slide.subtitle}
-                      </motion.p>
-                      <motion.button
-                      initial={{ opacity: 0, x: -40 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ delay: 0.4, duration: 0.4 }}
-                      className="mt-4 md:mt-12 text-[#F37021] text-[4px] md:text-[15px] font-bold px-3 py-1 md:px-6 md:py-2 hover:text-gray-700 transition duration-500 cursor-pointer hover:bg-white rounded-sm">
-                          LEARN MORE &gt;
-                      </motion.button>
-                    </div>
-                </div>
+                  <div className="max-w-7xl mx-auto pl-12 px-4">
+                      <div key={activeIndex} className="max-w-4xl md:pl-12">
+                        <motion.h1 
+                        initial={{ opacity: 0, x: -40 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.2, duration: 0.4 }}
+                        className="text-[16px] lg:text-[61px] tracking-normal leading-[20px] lg:leading-[76px] font-bold text-white whitespace-pre-line">
+                            {slide.title}
+                        </motion.h1>
+                        <motion.p
+                        initial={{ opacity: 0, x: -40 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.3, duration: 0.4 }}
+                        className="mt-2 lg:mt-6 text-[6px] lg:text-[23px] leading-[6px] lg:leading-[23px] font-[300] text-white/90 whitespace-pre-line">
+                            {slide.subtitle}
+                        </motion.p>
+                        <motion.button
+                        initial={{ opacity: 0, x: -40 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.4, duration: 0.4 }}
+                        className="mt-4 lg:mt-12 text-[#F37021] text-[4px] lg:text-[15px] font-bold px-3 py-1 lg:px-6 lg:py-2 hover:text-gray-700 transition duration-500 cursor-pointer hover:bg-white rounded-sm">
+                            LEARN MORE &gt;
+                        </motion.button>
+                      </div>
+                  </div>
                 </div>
             </div>
         </SwiperSlide>

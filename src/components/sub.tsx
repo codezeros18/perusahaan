@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
-import img1 from '../assets/aboutus1a.jpg'; // Adjust the path as necessary
+import img1 from '../assets/bg1.jpeg'; // Adjust the path as necessary
 
 const accordionData = [
   { title: "MORE POWER TO YOU", content: "Industrial Boiler & Mechanical specializes in the sale of new and reconditioned used boilers as well as the repair, installation and start up of steam process boiler systems for commercial, industrial and power utility facilities in the U.S. and abroad." },
