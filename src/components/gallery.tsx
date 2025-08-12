@@ -1,27 +1,27 @@
-import { Link } from "react-router-dom";
-import card1 from "../assets/pp2.jpeg";
-import card2 from "../assets/aboutus4.png";
-import card3 from "../assets/servmec2.jpg";
-import card4 from "../assets/au6.jpg";
-import card5 from "../assets/au11.jpg";
-import card6 from "../assets/main1.jpeg";
-import card7 from "../assets/fbc2.jpeg";
-import card8 from "../assets/esp1a.jpg";
-import card9 from "../assets/gaoi4a.jpg";
-import card10 from "../assets/cfbc2.jpg";
+// import { Link } from "react-router-dom";
+// import card1 from "../assets/pp2.jpeg";
+// import card2 from "../assets/aboutus4.png";
+// import card3 from "../assets/servmec2.jpg";
+// import card4 from "../assets/au6.jpg";
+// import card5 from "../assets/au11.jpg";
+// import card6 from "../assets/main1.jpeg";
+// import card7 from "../assets/fbc2.jpeg";
+// import card8 from "../assets/esp1a.jpg";
+// import card9 from "../assets/gaoi4a.jpg";
+// import card10 from "../assets/cfbc2.jpg";
 
-const divisions = [
-  { title: "Power Plant", image: card1, link: "/power-plant" },
-  { title: "Engineering", image: card2, link: "/power-plant" },
-  { title: "Construction", image: card3, link: "/power-plant" },
-  { title: "Automation", image: card4, link: "/power-plant" },
-  { title: "IoT", image: card5, link: "/power-plant" },
-  { title: "Maintenance", image: card6, link: "/power-plant" },
-  { title: "Fluidized Bed Boiler", image: card7, link: "/power-plant" },
-  { title: "Boiler Part", image: card8, link: "/power-plant" },
-  { title: "Gas & Oil Boiler", image: card9, link: "/power-plant" },
-  { title: "CFBC", image: card10, link: "/power-plant" },
-];
+// const divisions = [
+//   { title: "Power Plant", image: card1, link: "/power-plant" },
+//   { title: "Engineering", image: card2, link: "/power-plant" },
+//   { title: "Construction", image: card3, link: "/power-plant" },
+//   { title: "Automation", image: card4, link: "/power-plant" },
+//   { title: "IoT", image: card5, link: "/power-plant" },
+//   { title: "Maintenance", image: card6, link: "/power-plant" },
+//   { title: "Fluidized Bed Boiler", image: card7, link: "/power-plant" },
+//   { title: "Boiler Part", image: card8, link: "/power-plant" },
+//   { title: "Gas & Oil Boiler", image: card9, link: "/power-plant" },
+//   { title: "CFBC", image: card10, link: "/power-plant" },
+// ];
 
 export default function Gallery() {
   return (
