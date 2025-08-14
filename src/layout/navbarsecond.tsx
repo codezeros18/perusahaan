@@ -79,7 +79,7 @@ const navItems: NavItem[] = [
   },
   {
     label: "Services",
-    path: "after-sales",
+    path: "service",
     subItems: [
     { name: "Maintenance", path: "maintenance-services" }, 
     { name: "Spare Parts", path: "spareparts" },

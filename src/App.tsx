@@ -8,6 +8,9 @@ import './App.css'
 import BoilerDetail from "./detail/boilerDetail";
 import EnergyDetail from "./detail/energyDetail";
 import ElectricalDetail from "./detail/electricalDetail";
+import ProjectDetail from "./detail/projectDetail";
+import ServiceDetail from "./detail/serviceDetail";
+import SmartDetail from "./detail/smartDetail";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -23,6 +26,9 @@ function App() {
         <Route path="/boiler-systems/:boilerId" element={<BoilerDetail />} />
         <Route path="/energy-solutions/:energyId" element={<EnergyDetail />} />
         <Route path="/electrical-instrument/:electricalId" element={<ElectricalDetail />} />
+        <Route path="/projects/:projectId" element={<ProjectDetail />} />
+        <Route path="/service/:serviceId" element={<ServiceDetail />} />
+        <Route path="/smart-technology/:smartId" element={<SmartDetail />} />
       </Routes>
     </>
   )

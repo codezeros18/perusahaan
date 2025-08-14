@@ -98,8 +98,8 @@ export const boilerData: Record<string, BoilerInfo> = {
       "Pengurangan emisi"
     ],
     grid : [
-      { id: 1, src: ""},
-      { id: 2, src: ""},
+      // { id: 1, src: ""},
+      // { id: 2, src: ""},
     ],
   },
   "reciprocrating-grate-boiler": {
@@ -121,8 +121,8 @@ export const boilerData: Record<string, BoilerInfo> = {
       "Pengurangan emisi"
     ],
     grid : [
-      { id: 1, src: ""},
-      { id: 2, src: ""},
+      // { id: 1, src: ""},
+      // { id: 2, src: ""},
     ],
   },
   "gas-oil-boiler": {
@@ -167,8 +167,8 @@ export const boilerData: Record<string, BoilerInfo> = {
       "Pengurangan emisi"
     ],
     grid : [
-      { id: 1, src: ""},
-      { id: 2, src: ""},
+      // { id: 1, src: ""},
+      // { id: 2, src: ""},
     ],
   },
   "ash-bin-system": {
