@@ -5,7 +5,9 @@ import About from './pages/about'
 import Contact from './pages/contact'
 import Product from './pages/product'
 import './App.css'
-import BoilerDetail from "./pages/boilerDetail";
+import BoilerDetail from "./detail/boilerDetail";
+import EnergyDetail from "./detail/energyDetail";
+import ElectricalDetail from "./detail/electricalDetail";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/product" element={<Product />} />
         <Route path="/boiler-systems/:boilerId" element={<BoilerDetail />} />
+        <Route path="/energy-solutions/:energyId" element={<EnergyDetail />} />
+        <Route path="/electrical-instrument/:electricalId" element={<ElectricalDetail />} />
       </Routes>
     </>
   )

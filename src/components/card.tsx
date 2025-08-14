@@ -2,8 +2,8 @@
 import { Link } from 'react-router-dom';
 import card1 from '../assets/gaoi3a.jpg'
 import card2 from '../assets/pp1.jpg'
-import card3 from '../assets/servmec3.jpg'
-import card4 from '../assets/au6.jpg'
+import card3 from '../electrical/flyash/1.jpg'
+import card4 from '../services/installflyash/1.jpg'
 
 const card = () => {
   const cards = [
@@ -21,20 +21,17 @@ const card = () => {
   },
   {
     image: card3,
-    title: "Infra",
-    description: "Smart engineering for lasting infrastructure.",
-    link: "/build"
+    title: "Electric",
+    description: "Advanced electrical systems for modern needs.",
+    link: "/electrical-instrument"
   },
   {
     image: card4,
-    title: "Smart",
-    description: "Automation and IoT to boost performance.",
-    link: "/service"
+    title: "Services",
+    description: "Maintenance, installation, and after-sales support.",
+    link: "/after-sales"
   },
 ];
-
-
-
   return (
     <div className="flex justify-center text-[#333333] font-montserrat">
       <div className="max-w-6xl mx-2 lg:mx-auto mt-10 lg:mt-18 px-2 lg:px-10 text-center">

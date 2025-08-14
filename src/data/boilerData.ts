@@ -6,12 +6,15 @@ import img2 from '../assets/cfbc2.jpg';
 // import img4 from '../assets/recip.jpg';
 // import img5 from '../assets/gaoi1.jpg';
 import img5 from '../assets/gaoi3a.jpg';
+import img10 from '../boilersystems/ashbin/2.jpg';
 import img1grid1 from '../assets/fbc1.jpeg';
 import img1grid2 from '../assets/fbc4.png';
 import img2grid1 from '../assets/cfbc1.jpg';
 import img2grid2 from '../assets/cfbc2.jpg';
 import img5grid1 from '../assets/gaoi3a.jpg';
 import img5grid2 from '../assets/gaoi4a.jpg';
+import img10grid1 from '../boilersystems/ashbin/1.jpg';
+import img10grid2 from '../boilersystems/ashbin/5.jpg';
 
 export interface BoilerInfo {
   name: string;
@@ -168,9 +171,9 @@ export const boilerData: Record<string, BoilerInfo> = {
       { id: 2, src: ""},
     ],
   },
-  "boiler-part": {
-    name: "Boiler Part",
-    image: black,
+  "ash-bin-system": {
+    name: "Ash Bin System",
+    image: img10,
     description: "Boiler ini menggunakan prinsip pembakaran pada bed yang terfluidisasi...",
     title1 : "Rugged durability for a variety of fuels.",
     title2 : "High efficiency and low emissions.",
@@ -187,8 +190,8 @@ export const boilerData: Record<string, BoilerInfo> = {
       "Pengurangan emisi"
     ],
     grid : [
-      { id: 1, src: ""},
-      { id: 2, src: ""},
+      { id: 1, src: img10grid1},
+      { id: 2, src: img10grid2},
     ],
   }
 };

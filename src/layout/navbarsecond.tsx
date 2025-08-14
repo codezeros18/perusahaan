@@ -33,14 +33,32 @@ const navItems: NavItem[] = [
       { name: "Reciprocrating Grate Boiler", path: "reciprocrating-grate-boiler" },
       { name: "Gas & Oil Boiler", path: "gas-oil-boiler" },
       { name: "Thermal Oil Boiler", path: "thermal-oil-boiler" },
-      { name: "Boiler Part", path: "boiler-part" },
+      { name: "Ash Bin System", path: "ash-bin-system" },
     ],
   },
   {
-    label: "Energy Solutions",
+    label: "Electrical", // kategori baru
+    path: "electrical-instrument",
+    subItems: [
+      { name: "ESP", path: "esp" },
+      { name: "Fly Ash", path: "fly-ash" },
+      { name: "Generator", path: "generator" },
+      { name: "Genset", path: "genset" },
+      { name: "Trafo Auxiliary", path: "trafo-auxiliary" },
+      { name: "LV/MV", path: "lv-mv" },
+      { name: "Turbine", path: "turbine" },
+      { name: "Grounding", path: "grounding" },
+      { name: "Panel PLC", path: "plc" },
+      { name: "SCADA System", path: "scada-system" },
+      { name: "SWASS System", path: "swass-system" },
+    ],
+  },
+  {
+    label: "Energy",
     path: "energy-solutions",
     subItems: [
       { name: "Power Plant", path: "power-plant" },
+      { name: "Bag Filter", path: "bag-filter" },
     ],
   },
   {
@@ -60,12 +78,14 @@ const navItems: NavItem[] = [
     ],
   },
   {
-    label: "After Sales",
+    label: "Services",
     path: "after-sales",
     subItems: [
-      { name: "Maintenance & Services", path: "maintenance-services" },
-      { name: "Spareparts", path: "spareparts" },
-    ],
+    { name: "Maintenance", path: "maintenance-services" }, 
+    { name: "Spare Parts", path: "spareparts" },
+    { name: "Installation", path: "installation-services" }, 
+    { name: "Termination", path: "termination" },
+  ],
   },
   {
     label: "Company",

@@ -1,27 +1,37 @@
 import { Link } from "react-router-dom";
-import card1 from "../assets/pp2.jpeg";
-import card2 from "../assets/aboutus4.png";
-import card3 from "../assets/servmec2.jpg";
-import card4 from "../assets/au6.jpg";
-import card5 from "../assets/au11.jpg";
-import card6 from "../assets/main1.jpeg";
-import card7 from "../assets/fbc2.jpeg";
-import card8 from "../assets/esp1a.jpg";
-import card9 from "../assets/gaoi4a.jpg";
-import card10 from "../assets/cfbc2.jpg";
+import card1 from "../assets/fbc2.jpeg";
+import card2 from "../electrical/esp/1.jpg";
+import card3 from "../energy/bagfilter/1.jpeg";
+import card4 from "../electrical/generator/1.jpg";
+import card5 from "../electrical/turbine/1.jpg";
+import card6 from "../services/installesp/13.jpg";
+import card7 from "../energy/powerplant/10.jpg";
+import card8 from "../services/overhaulesp/3.jpeg";
+import card9 from "../assets/au1.jpg";
+import card10 from "../assets/au6.jpg";
 
 const divisions = [
-  { title: "Power Plant", image: card1, link: "/power-plant" },
-  { title: "Engineering", image: card2, link: "/power-plant" },
-  { title: "Construction", image: card3, link: "/power-plant" },
-  { title: "Automation", image: card4, link: "/power-plant" },
-  { title: "IoT", image: card5, link: "/power-plant" },
-  { title: "Maintenance", image: card6, link: "/power-plant" },
-  { title: "Fluidized Bed Boiler", image: card7, link: "/power-plant" },
-  { title: "Boiler Part", image: card8, link: "/power-plant" },
-  { title: "Gas & Oil Boiler", image: card9, link: "/power-plant" },
-  { title: "CFBC", image: card10, link: "/power-plant" },
+  // Produk Utama
+  { title: "Fluidized Bed Boiler", image: card1, link: "/fluidized-bed-boiler" },
+  { title: "ESP", image: card2, link: "/esp" },
+  { title: "Bag Filter", image: card3, link: "/bag-filter" },
+  { title: "Generator", image: card4, link: "/generator-turbine" },
+  
+  // Instalasi & Proyek
+  { title: "Installation", image: card6, link: "/boiler-installation" },
+  { title: "Power Plant", image: card7, link: "/power-plant-engineering" },
+
+  // Produk Utama
+  { title: "Turbine", image: card5, link: "/turbine" },
+
+  // Services & After-Sales
+  { title: "Maintenance", image: card8, link: "/maintenance-overhaul" },
+
+  // Teknologi Cerdas
+  { title: "Automation", image: card9, link: "/automation-iot" },
+  { title: "IoT", image: card10, link: "/spare-parts" },
 ];
+
 
 export default function Gallery() {
   return (
