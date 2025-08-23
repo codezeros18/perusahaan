@@ -49,7 +49,7 @@ export const energyData: Record<string, EnergyInfo> = {
     ],
   },
   "bag-filter": {
-    name: "Bag Filter (Fabric Filter)",
+    name: "Bag Filter",
     image: img2,
     description:
       "Air pollution control device that captures fine dust and particulates from industrial exhaust.",

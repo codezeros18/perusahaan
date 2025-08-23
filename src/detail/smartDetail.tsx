@@ -128,15 +128,15 @@ export default function SmartDetail() {
               <h2 className="text-[24px] lg:text-[30px] leading-[36px] text-center md:text-start tracking-[2.16px] mb-2 md:mb-4 font-[700] uppercase">
                 smart EXPERTS
               </h2>
-              <p className="text-[14px] lg:text-[20px] leading-[25.2px] lg:leading-[36px] text-center md:text-start font-[400] tracking-[0.7px] lg:tracking-[1px]">
-                Contact IB&amp;M today at (855) 753-smart to speak with our sales engineers about
-                selecting the right new or fully reconditioned used oil fired smart for your facility.
+                            <p className="text-[14px] lg:text-[20px] leading-[25.2px] lg:leading-[36px] text-center md:text-start font-[400] tracking-[0.7px] lg:tracking-[1px]">
+                 We deliver reliable, energy-efficient boiler solutions tailored to your facility. Call us at (855) 753-2645 to
+                 speak with our engineers today.
               </p>
             </div>
 
             {/* Kanan: Button */}
             <div className="flex justify-center md:justify-end">
-              <button className="border cursor-pointer border-[#333333]/80 px-8 py-3 flex items-center gap-2 uppercase font-medium tracking-wide hover:bg-white hover:border-none hover:text-[#333333] transition duration-300">
+              <button className="border cursor-pointer border-[#333333]/80 px-8 py-3 flex items-center gap-2 uppercase font-medium tracking-wide hover:bg-white hover:border-white hover:text-[#333333] transition duration-300">
                 {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5"

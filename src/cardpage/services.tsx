@@ -24,10 +24,10 @@ const services = () => {
   image: bgServices,
 }
     const services = [
-    { title: "Maintenance", image: card1, link: "/maintenance" },
-    { title: "Spare Parts", image: card2, link: "/spare-parts" },
-    { title: "Installation", image: card3, link: "/installation" },
-    { title: "Termination", image: card4, link: "/termination" },
+    { title: "Maintenance", image: card1, link: "/service/maintenance" },
+    { title: "Spare Parts", image: card2, link: "/service/spare-parts" },
+    { title: "Installation", image: card3, link: "/service/installation" },
+    { title: "Termination", image: card4, link: "/service/termination" },
     ];
 
   return (

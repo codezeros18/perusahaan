@@ -114,7 +114,12 @@ const Header = () => {
                             show: { opacity: 1, x: 0 }
                           }}
                           transition={{ duration: 0.1 }}  // ❌ remove delay here
-                          className="mt-4 lg:mt-12 text-[#F37021] text-[4px] lg:text-[15px] font-bold px-3 py-1 lg:px-6 lg:py-2 
+                          onClick={() => {
+                            document.getElementById("partner-section")?.scrollIntoView({ 
+                              behavior: "smooth" 
+                            });
+                          }}
+                                                  className="mt-4 lg:mt-12 text-[#F37021] text-[4px] lg:text-[15px] font-bold px-3 py-1 lg:px-6 lg:py-2 
                                     hover:text-gray-700 hover:bg-white transition duration-500 
                                     cursor-pointer border-[1px] border-[#333333] rounded-sm"
                         >

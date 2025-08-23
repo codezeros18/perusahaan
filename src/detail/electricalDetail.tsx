@@ -129,28 +129,14 @@ export default function ElectricalDetail() {
                 electrical EXPERTS
               </h2>
               <p className="text-[14px] lg:text-[20px] leading-[25.2px] lg:leading-[36px] text-center md:text-start font-[400] tracking-[0.7px] lg:tracking-[1px]">
-                Contact IB&amp;M today at (855) 753-electrical to speak with our sales engineers about
-                selecting the right new or fully reconditioned used oil fired electrical for your facility.
+                 We deliver reliable, energy-efficient boiler solutions tailored to your facility. Call us at (855) 753-2645 to
+                 speak with our engineers today.
               </p>
             </div>
 
             {/* Kanan: Button */}
             <div className="flex justify-center md:justify-end">
-              <button className="border cursor-pointer border-[#333333]/80 px-8 py-3 flex items-center gap-2 uppercase font-medium tracking-wide hover:bg-white hover:border-none hover:text-[#333333] transition duration-300">
-                {/* <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="#3b2300"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M8 10h.01M12 10h.01M16 10h.01M9 16h6m2 0a2 2 0 002-2V8a2 2 0 00-2-2H7a2 2 0 00-2 2v6a2 2 0 002 2h10z"
-                  />
-                </svg> */}
+              <button className="border cursor-pointer border-[#333333]/80 px-8 py-3 flex items-center gap-2 uppercase font-medium tracking-wide hover:bg-white hover:border-white hover:text-[#333333] transition duration-300">
                 Contact Us
               </button>
             </div>

@@ -31,17 +31,17 @@ const electric = () => {
 }
 
     const electricalProducts = [
-    { title: "ESP", image: card1, link: "/esp" },
-    { title: "Fly Ash", image: card2, link: "/fly-ash" },
-    { title: "Generator", image: card3, link: "/generator" },
-    { title: "Genset", image: card4, link: "/genset" },
-    { title: "Trafo Auxiliary", image: card5, link: "/trafo-auxiliary" },
-    { title: "LV/MV", image: card6, link: "/lv-mv" },
-    { title: "Turbine", image: card7, link: "/turbine" },
-    { title: "Grounding", image: card8, link: "/grounding" },
-    { title: "Panel PLC", image: card9, link: "/plc" },
-    { title: "SCADA System", image: card10, link: "/scada-system" },
-    { title: "SWASS System", image: card11, link: "/swass-system" },
+    { title: "ESP", image: card1, link: "/electrical-instrument/esp" },
+    { title: "Fly Ash", image: card2, link: "/electrical-instrument/fly-ash" },
+    { title: "Generator", image: card3, link: "/electrical-instrument/generator" },
+    { title: "Genset", image: card4, link: "/electrical-instrument/genset" },
+    { title: "Trafo Auxiliary", image: card5, link: "/electrical-instrument/trafo-auxiliary" },
+    { title: "LV/MV", image: card6, link: "/electrical-instrument/lv-mv" },
+    { title: "Turbine", image: card7, link: "/electrical-instrument/turbine" },
+    { title: "Grounding", image: card8, link: "/electrical-instrument/grounding" },
+    { title: "Panel PLC", image: card9, link: "/electrical-instrument/plc" },
+    { title: "SCADA System", image: card10, link: "/electrical-instrument/scada-system" },
+    { title: "SWASS System", image: card11, link: "/electrical-instrument/swass-system" },
     ];
 
   return (

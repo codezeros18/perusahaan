@@ -22,8 +22,8 @@ const energy = () => {
 }
 
     const energyProducts = [
-    { title: "Power Plant", image: card1, link: "/power-plant" },
-    { title: "Bag Filter", image: card2, link: "/bag-filter" },
+    { title: "Power Plant", image: card1, link: "/energy-solutions/power-plant" },
+    { title: "Bag Filter", image: card2, link: "/energy-solutions/bag-filter" },
     ];
 
   return (

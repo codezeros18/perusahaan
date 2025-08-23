@@ -11,26 +11,18 @@ import card9 from "../assets/au1.jpg";
 import card10 from "../assets/au6.jpg";
 
 const divisions = [
-  // Produk Utama
-  { title: "Fluidized Bed Boiler", image: card1, link: "/fluidized-bed-boiler" },
-  { title: "ESP", image: card2, link: "/esp" },
-  { title: "Bag Filter", image: card3, link: "/bag-filter" },
-  { title: "Generator", image: card4, link: "/generator-turbine" },
-  
-  // Instalasi & Proyek
-  { title: "Installation", image: card6, link: "/boiler-installation" },
-  { title: "Power Plant", image: card7, link: "/power-plant-engineering" },
-
-  // Produk Utama
-  { title: "Turbine", image: card5, link: "/turbine" },
-
-  // Services & After-Sales
-  { title: "Maintenance", image: card8, link: "/maintenance-overhaul" },
-
-  // Teknologi Cerdas
-  { title: "Automation", image: card9, link: "/automation-iot" },
-  { title: "IoT", image: card10, link: "/spare-parts" },
+  { title: "Fluidized Bed Boiler", image: card1, link: "/boiler-systems/fluidized-bed-boiler" },
+  { title: "ESP", image: card2, link: "/electrical-instrument/esp" },
+  { title: "Bag Filter", image: card3, link: "/energy-solutions/bag-filter" },
+  { title: "Generator", image: card4, link: "/electrical-instrument/generator" },
+  { title: "Installation", image: card6, link: "/service/installation-services" },
+  { title: "Power Plant", image: card7, link: "/energy-solutions/power-plant" },
+  { title: "Turbine", image: card5, link: "/electrical-instrument/turbine" },
+  { title: "Maintenance", image: card8, link: "/service/maintenance-services" },
+  { title: "Automation", image: card9, link: "/smart-technology/automation" },
+  { title: "IoT", image: card10, link: "/smart-technology/iot" },
 ];
+
 
 
 export default function Gallery() {

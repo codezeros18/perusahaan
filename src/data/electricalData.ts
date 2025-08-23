@@ -64,7 +64,7 @@ export interface ElectricalInfo {
 
 export const electricalData: Record<string, ElectricalInfo> = {
   "esp": {
-    name: "ESP (Electrostatic Precipitator)",
+    name: "ESP",
     image: img1,
     description: "Efficient dust collection system for industrial applications.",
     title1: "Reliable air pollution control.",
@@ -87,7 +87,7 @@ export const electricalData: Record<string, ElectricalInfo> = {
     ],
   },
   "fly-ash": {
-    name: "Fly Ash Handling System",
+    name: "Fly Ash",
     image: img2,
     description: "Safe and efficient system for managing fly ash from combustion.",
     title1: "Reliable ash handling.",
@@ -156,7 +156,7 @@ export const electricalData: Record<string, ElectricalInfo> = {
     ],
   },
   "trafo-auxiliary": {
-    name: "Auxiliary Transformer",
+    name: "Trafo Auxiliary",
     image: img5,
     description: "Transformer for stable and efficient voltage management.",
     title1: "Reliable power distribution.",
@@ -179,7 +179,7 @@ export const electricalData: Record<string, ElectricalInfo> = {
     ],
   },
   "lv-mv": {
-    name: "LV-MV Switchgear",
+    name: "LV-MV",
     image: img6,
     description: "Reliable switching and protection equipment for electrical systems.",
     title1: "Safe power distribution.",
@@ -294,7 +294,7 @@ export const electricalData: Record<string, ElectricalInfo> = {
     ],
   },
   "swass-system": {
-    name: "SWAS System (Steam Water Analysis System)",
+    name: "SWASS System ",
     image: img11,
     description: "Monitoring system for assessing steam and water quality in power and boiler systems.",
     title1: "Protects plant integrity.",

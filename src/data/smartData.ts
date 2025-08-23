@@ -49,7 +49,7 @@ export const smartData: Record<string, SmartInfo> = {
     ],
   },
   "iot": {
-    name: "Industrial IoT (IIoT)",
+    name: "Industrial IoT",
     image: img2,
     description: "Connected sensors and devices unlocking real-time data, efficiency, and insights.",
     title1: "Visibility across all operations.",

@@ -13,10 +13,11 @@ import Card from '../components/card'
 import CardGallery from "../components/cardgallery";
 import card1 from "../assets/fbc3e.jpg";
 import card2 from "../boilersystems/cfbc/cfbc2.jpg";
-import card3 from "../boilersystems/cgb/1.jpg";
-import card4 from "../electrical/generator/1.jpg";
+// import card3 from "../boilersystems/cgb/1.jpg";
+// import card4 from "../electrical/generator/1.jpg";
 import card5 from "../boilersystems/gasoil/gaoi3a.jpg";
-import card6 from "../services/installesp/13.jpg";
+// import card6 from "../services/installesp/13.jpg";
+import card7 from "../boilersystems/ashbin/1.jpg";
 
 const boiler = () => {
     const data = {
@@ -25,12 +26,13 @@ const boiler = () => {
     image: bgBoiler, // Add a default image value or update as needed
     }
     const boilerProducts = [
-    { title: "Fluidized Bed Boiler", image: card1, link: "/fluidized-bed-boiler" },
-    { title: "CFBC", image: card2, link: "/cfbc" },
-    { title: "Chain Grate Boiler", image: card3, link: "/chain-grate-boiler" },
-    { title: "Reciprocrating Grate Boiler", image: card4, link: "/turbine" },
-    { title: "Gas & Oil Boiler", image: card5, link: "/gas-oil-boiler" },
-    { title: "Thermal Oil Boiler", image: card6, link: "/thermal-oil-boiler" },
+    { title: "Fluidized Bed Boiler", image: card1, link: "/boiler-systems/fluidized-bed-boiler" },
+    { title: "CFBC", image: card2, link: "/boiler-systems/cfbc" },
+    { title: "Chain Grate Boiler", image: card5, link: "/boiler-systems/chain-grate-boiler" },
+    { title: "Reciprocrating Grate Boiler", image: card5, link: "/boiler-systems/reciprocrating-grate-boiler" },
+    { title: "Gas & Oil Boiler", image: card5, link: "/boiler-systems/gas-oil-boiler" },
+    { title: "Thermal Oil Boiler", image: card5, link: "/boiler-systems/thermal-oil-boiler" },
+    { title: "Ash Bin System", image: card7, link: "/boiler-systems/ash-bin-system" },
     ];
 
   return (

@@ -33,7 +33,7 @@ const card = () => {
   },
 ];
   return (
-    <div className="flex justify-center text-[#333333] font-montserrat">
+    <div id="partner-section"  className="flex justify-center text-[#333333] font-montserrat">
       <div className="max-w-6xl mx-2 lg:mx-auto mt-10 lg:mt-18 px-2 lg:px-10 text-center">
         {/* Heading */}
         <h2 className="mx-auto max-w-[20rem] lg:max-w-3xl text-[30px] lg:text-[36px] leading-[35px] tracking-[1px] font-[400] mb-4">
