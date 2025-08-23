@@ -25,47 +25,54 @@ export const smartData: Record<string, SmartInfo> = {
   "automation": {
     name: "Automation",
     image: img1,
-    description: "Fluidized Bed Boiler is an interesting and innovative combustion system used to produce steam",
-    title1 : "Rugged durability for a variety of fuels.",
-    title2 : "High efficiency and low emissions.",
-    description1 : "Fluidized Bed Boiler, FBB is an interesting and innovative combustion system used to produce steam or electricity in a variety of industries. Its greatness is ability to burn a wide array of fuels efficiently, including low-quality coal, biomass, and industrial waste.",
-    description2 : "The fluidized bed boiler process centers on the concept of (fluidization), in which solid fuels such as sand or limestone are suspended and heated by a stream of air or gas flowing through the bed of those particles. The fluidization effect creates an article similar to that of a boiling liquid, allowing better mixing and contact between fuel and combustion air.",
+    description: "Advanced automation solutions to streamline industrial operations.",
+    title1: "Effortless operations, maximized efficiency.",
+    title2: "Smart workflows, reduced manual error.",
+    description1:
+      "AEI's Automation services deploy intelligent systems—including robotics, PLCs, and control logic—to automate repetitive or complex tasks. This enables faster production, higher precision, and minimized human error.",
+    description2:
+      "With automation, you get scalable solutions that boost throughput, free up workforce for high-value tasks, and elevate operational consistency—key for meeting rigorous industrial standards.",
     contactTitle: "One Call Does It All",
     contactNumber: "+1 (800) 123-4567",
-    contactSubtitle: "AEI offers single-source sales, emergency rental, field service and repair of boilers and boiler room equipment.",
+    contactSubtitle:
+      "AEI delivers industrial automation—from design and programming to implementation and optimization.",
     contactButton: "Contact AEI",
     specs: [
-      "Kapasitas besar",
-      "Efisiensi tinggi",
-      "Ramah lingkungan",
-      "Pengurangan emisi"
+      "Improves operational efficiency",
+      "Minimizes manual errors",
+      "Supports high-volume throughput",
+      "Scalable and flexible"
     ],
-    grid : [
-      { id: 1, src: img1grid1},
-      // { id: 2, src: img1grid2},
+    grid: [
+      { id: 1, src: img1grid1 },
+      // { id: 2, src: img1grid2 },
     ],
   },
   "iot": {
-    name: "Iot",
+    name: "Industrial IoT (IIoT)",
     image: img2,
-    description: "The circulating fluidized bed (CFB) is a type of fluidized bed combustion that utilizes a recirculating loop for even greater efficiency",
-    title1 : "Rugged durability for a variety of fuels.",
-    title2 : "High efficiency and low emissions.",
-    description1 : "The circulating fluidized bed (CFB) is a type of fluidized bed combustion that utilizes a recirculating loop for even greater efficiency of combustion. while achieving lower emission of pollutants. Reports suggest that up to 95% of pollutants can be absorbed before being emitted into the atmosphere.",
-    description2 : "The technology is limited in scale however, due to its extensive use of limestone, and the fact that it produces waste byproducts.",
+    description: "Connected sensors and devices unlocking real-time data, efficiency, and insights.",
+    title1: "Visibility across all operations.",
+    title2: "Data-driven decisions on demand.",
+    description1:
+      "Industrial IoT (IIoT) integrates sensors, connectivity, and analytics to gather real-time data from equipment and processes. AEI's IIoT solutions enable predictive maintenance, energy optimization, and remote asset monitoring to keep your operations smart and proactive." ,
+    description2:
+      "IIoT empowers immediate insights, improved safety, and resource efficiency—with faster response to anomalies, predictive planning, and data-driven strategy shaping next-gen operations." ,
     contactTitle: "One Call Does It All",
     contactNumber: "+1 (800) 123-4567",
-    contactSubtitle: "AEI offers single-source sales, emergency rental, field service and repair of boilers and boiler room equipment.",
+    contactSubtitle:
+      "AEI offers IIoT strategy, implementation, and analytics integration for smart industrial operations.",
     contactButton: "Contact AEI",
     specs: [
-      "Kapasitas besar",
-      "Efisiensi tinggi",
-      "Ramah lingkungan",
-      "Pengurangan emisi"
+      "Real-time system insights",
+      "Proactive maintenance",
+      "Enhanced safety monitoring",
+      "Energy and cost optimization"
     ],
-    grid : [
-      { id: 1, src: img2grid1},
-      { id: 2, src: img2grid2},
+    grid: [
+      { id: 1, src: img2grid1 },
+      { id: 2, src: img2grid2 },
     ],
   },
 };
+

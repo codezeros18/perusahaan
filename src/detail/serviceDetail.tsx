@@ -27,7 +27,7 @@ export default function ServiceDetail() {
               style={{ backgroundImage: `url(${data.image})` }}
             >
               {/* Overlay darken absolute, full cover, opacity dan smooth transition */}
-              <div className="absolute inset-0 bg-black opacity-70 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-black opacity-60 transition-opacity duration-500"></div>
 
               {/* Konten utama di atas overlay */}
               <div className="relative z-10 w-full flex items-center justify-start h-full pt-8 lg:pt-0">

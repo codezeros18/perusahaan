@@ -11,13 +11,13 @@ const card = () => {
     image: card1,
     title: "Boiler",
     description: "Efficient, reliable boiler solutions for industry.",
-    link: "/boiler"
+    link: "/boiler-systems"
   },
   {
     image: card2,
     title: "Energy",
     description: "Sustainable power systems for a better future.",
-    link: "/auto"
+    link: "/energy-solutions"
   },
   {
     image: card3,
@@ -28,8 +28,8 @@ const card = () => {
   {
     image: card4,
     title: "Services",
-    description: "Maintenance, installation, and after-sales support.",
-    link: "/after-sales"
+    description: "Maintenance, installation, and support.",
+    link: "/service"
   },
 ];
   return (
@@ -37,14 +37,14 @@ const card = () => {
       <div className="max-w-6xl mx-2 lg:mx-auto mt-10 lg:mt-18 px-2 lg:px-10 text-center">
         {/* Heading */}
         <h2 className="mx-auto max-w-[20rem] lg:max-w-3xl text-[30px] lg:text-[36px] leading-[35px] tracking-[1px] font-[400] mb-4">
-          YOUR SINGLE SOURCE SOLUTION
+          YOUR SINGLE SOURCE PARTNER
         </h2>
 
         {/* Description */}
         <p className="max-w-[550px] mx-auto text-[12px] lg:text-[14px] leading-[25.2px] text-[#333333]/80 tracking-[0.5px] font-[400]">
-          As a leader in steam plant solutions, AEI offers single-source sales,
-          emergency rental, field service and repair of boilers and boiler room
-          equipment.
+          Your trusted partner in steam solutions.
+From sales to field service and installation.
+Delivering reliability for every project.
         </p>
 
         {/* Divider */}

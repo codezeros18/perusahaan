@@ -25,47 +25,55 @@ export const energyData: Record<string, EnergyInfo> = {
   "power-plant": {
     name: "Power Plant",
     image: img1,
-    description: "Fluidized Bed Boiler is an interesting and innovative combustion system used to produce steam",
-    title1 : "Rugged durability for a variety of fuels.",
-    title2 : "High efficiency and low emissions.",
-    description1 : "Fluidized Bed Boiler, FBB is an interesting and innovative combustion system used to produce steam or electricity in a variety of industries. Its greatness is ability to burn a wide array of fuels efficiently, including low-quality coal, biomass, and industrial waste.",
-    description2 : "The fluidized bed boiler process centers on the concept of (fluidization), in which solid fuels such as sand or limestone are suspended and heated by a stream of air or gas flowing through the bed of those particles. The fluidization effect creates an article similar to that of a boiling liquid, allowing better mixing and contact between fuel and combustion air.",
+    description: "Industrial facility that generates electricity by converting energy from various sources.",
+    title1: "Reliable electricity generation.",
+    title2: "Flexible energy sourcing.",
+    description1:
+      "A Power Plant—also known as a generating station—is an industrial facility that converts various forms of energy into electric power. Most power plants use generators driven by mechanical energy created through thermal, hydraulic, nuclear, or renewable processes to supply electricity to the grid.",
+    description2:
+      "Depending on configuration, plants can harness energy from fossil fuels (coal, gas, oil), nuclear reactions, water flow (hydroelectric), wind, solar, or geothermal heat. Some modern plants also combine cycles—like gas and steam turbines—to improve efficiency and adapt to fluctuating demand.",
     contactTitle: "One Call Does It All",
     contactNumber: "+1 (800) 123-4567",
-    contactSubtitle: "AEI offers single-source sales, emergency rental, field service and repair of boilers and boiler room equipment.",
+    contactSubtitle:
+      "AEI offers turnkey design, construction, and maintenance services for power generation facilities across energy types.",
     contactButton: "Contact AEI",
     specs: [
-      "Kapasitas besar",
-      "Efisiensi tinggi",
-      "Ramah lingkungan",
-      "Pengurangan emisi"
+      "Scalable output capacity",
+      "Diverse fuel/energy sources",
+      "Grid-ready integration",
+      "Optimized efficiency"
     ],
-    grid : [
-      { id: 1, src: img1grid1},
+    grid: [
+      { id: 1, src: img1grid1 },
       { id: 2, src: img1grid2 },
     ],
   },
   "bag-filter": {
-    name: "Bag Filter",
+    name: "Bag Filter (Fabric Filter)",
     image: img2,
-    description: "The circulating fluidized bed (CFB) is a type of fluidized bed combustion that utilizes a recirculating loop for even greater efficiency",
-    title1 : "Rugged durability for a variety of fuels.",
-    title2 : "High efficiency and low emissions.",
-    description1 : "The circulating fluidized bed (CFB) is a type of fluidized bed combustion that utilizes a recirculating loop for even greater efficiency of combustion. while achieving lower emission of pollutants. Reports suggest that up to 95% of pollutants can be absorbed before being emitted into the atmosphere.",
-    description2 : "The technology is limited in scale however, due to its extensive use of limestone, and the fact that it produces waste byproducts.",
+    description:
+      "Air pollution control device that captures fine dust and particulates from industrial exhaust.",
+    title1: "High-performance filtration.",
+    title2: "Improves air quality and efficiency.",
+    description1:
+      "Bag Filters—or Baghouse systems—use fabric bags to capture fine particles from flue gases before release into the atmosphere. Common in power plants, cement kilns, steel mills, and other industries, they help meet stringent emissions standards.",
+    description2:
+      "With filtration efficiencies often exceeding 99%, modern designs include automated cleaning (e.g., pulse-jet systems). Bag Filters protect downstream equipment, reduce maintenance needs, and contribute to safer, cleaner plant operations.",
     contactTitle: "One Call Does It All",
     contactNumber: "+1 (800) 123-4567",
-    contactSubtitle: "AEI offers single-source sales, emergency rental, field service and repair of boilers and boiler room equipment.",
+    contactSubtitle:
+      "AEI provides complete Bag Filter solutions—selection, installation, and upkeep—for industrial air quality control.",
     contactButton: "Contact AEI",
     specs: [
-      "Kapasitas besar",
-      "Efisiensi tinggi",
-      "Ramah lingkungan",
-      "Pengurangan emisi"
+      "Ultra-fine particulate capture",
+      "Durable filter media",
+      "Automated bag cleaning",
+      "Environmental compliance"
     ],
-    grid : [
-      { id: 1, src: img2grid1},
-      { id: 2, src: img2grid2},
+    grid: [
+      { id: 1, src: img2grid1 },
+      { id: 2, src: img2grid2 },
     ],
   },
 };
+

@@ -2,9 +2,6 @@
 import black from '../assets/black.jpg';
 import img1 from '../assets/fbc2.jpeg';
 import img2 from '../assets/cfbc2.jpg';
-// import img3 from '../assets/chain.jpg';
-// import img4 from '../assets/recip.jpg';
-// import img5 from '../assets/gaoi1.jpg';
 import img5 from '../assets/gaoi3a.jpg';
 import img10 from '../boilersystems/ashbin/2.jpg';
 import img1grid1 from '../assets/fbc1.jpeg';
@@ -36,20 +33,20 @@ export const boilerData: Record<string, BoilerInfo> = {
   "fluidized-bed-boiler": {
     name: "Fluidized Bed Boiler",
     image: img1,
-    description: "Fluidized Bed Boiler is an interesting and innovative combustion system used to produce steam",
-    title1 : "Rugged durability for a variety of fuels.",
-    title2 : "High efficiency and low emissions.",
-    description1 : "Fluidized Bed Boiler, FBB is an interesting and innovative combustion system used to produce steam or electricity in a variety of industries. Its greatness is ability to burn a wide array of fuels efficiently, including low-quality coal, biomass, and industrial waste.",
-    description2 : "The fluidized bed boiler process centers on the concept of (fluidization), in which solid fuels such as sand or limestone are suspended and heated by a stream of air or gas flowing through the bed of those particles. The fluidization effect creates an article similar to that of a boiling liquid, allowing better mixing and contact between fuel and combustion air.",
+    description: "An advanced combustion system designed for fuel flexibility and cleaner energy.",
+    title1 : "Fuel flexibility for multiple industries",
+    title2 : "Efficient performance with lower emissions",
+    description1 : "Fluidized Bed Boilers use a unique method of suspending fuel particles on a stream of air, creating a fluid-like motion. This allows for even combustion and high efficiency when using various fuels such as coal, biomass, or industrial waste.",
+    description2 : "Operating at lower combustion temperatures, these boilers reduce nitrogen oxide emissions and allow in-furnace sulfur removal using limestone, making them an eco-friendly option.",
     contactTitle: "One Call Does It All",
     contactNumber: "+1 (800) 123-4567",
-    contactSubtitle: "AEI offers single-source sales, emergency rental, field service and repair of boilers and boiler room equipment.",
+    contactSubtitle: "AEI offers sales, rental, field service and repair of boilers and boiler room equipment.",
     contactButton: "Contact AEI",
     specs: [
-      "Kapasitas besar",
-      "Efisiensi tinggi",
-      "Ramah lingkungan",
-      "Pengurangan emisi"
+      "High efficiency",
+      "Fuel flexibility",
+      "Lower emissions",
+      "Durable design"
     ],
     grid : [
       { id: 1, src: img1grid1},
@@ -59,20 +56,20 @@ export const boilerData: Record<string, BoilerInfo> = {
   "cfbc": {
     name: "Circulating Fluidized Bed Combustion",
     image: img2,
-    description: "The circulating fluidized bed (CFB) is a type of fluidized bed combustion that utilizes a recirculating loop for even greater efficiency",
-    title1 : "Rugged durability for a variety of fuels.",
-    title2 : "High efficiency and low emissions.",
-    description1 : "The circulating fluidized bed (CFB) is a type of fluidized bed combustion that utilizes a recirculating loop for even greater efficiency of combustion. while achieving lower emission of pollutants. Reports suggest that up to 95% of pollutants can be absorbed before being emitted into the atmosphere.",
-    description2 : "The technology is limited in scale however, due to its extensive use of limestone, and the fact that it produces waste byproducts.",
+    description: "A fluidized bed boiler with enhanced circulation for even greater efficiency.",
+    title1 : "Optimized combustion process",
+    title2 : "Eco-friendly and reliable solution",
+    description1 : "The Circulating Fluidized Bed Combustion (CFBC) system improves fuel efficiency by continuously recirculating solid particles, ensuring complete combustion and better heat utilization.",
+    description2 : "It can handle a wide variety of fuels while significantly reducing emissions, making it a dependable choice for power and industrial plants.",
     contactTitle: "One Call Does It All",
     contactNumber: "+1 (800) 123-4567",
-    contactSubtitle: "AEI offers single-source sales, emergency rental, field service and repair of boilers and boiler room equipment.",
+    contactSubtitle: "AEI offers sales, rental, field service and repair of boilers and boiler room equipment.",
     contactButton: "Contact AEI",
     specs: [
-      "Kapasitas besar",
-      "Efisiensi tinggi",
-      "Ramah lingkungan",
-      "Pengurangan emisi"
+      "Consistent performance",
+      "Lower emissions",
+      "Wide fuel range",
+      "Reliable operation"
     ],
     grid : [
       { id: 1, src: img2grid1},
@@ -82,66 +79,60 @@ export const boilerData: Record<string, BoilerInfo> = {
   "chain-grate-boiler": {
     name: "Chain Grate Boiler",
     image: black,
-    description: "A type of mechanical stoker for a furnace, in which the grate consists of an endless chain",
-    title1 : "Rugged durability for a variety of fuels.",
-    title2 : "High efficiency and low emissions.",
-    description1 : "A type of mechanical stoker for a furnace, in which the grate consists of an endless chain that draws the solid fuel into the furnace as it rotates.",
-    description2 : "A wide endless traveling chain that feeds and supports the fuel in a boiler furnace.",
+    description: "A mechanical stoker boiler using a moving chain to feed fuel into the furnace.",
+    title1 : "Simple and effective design",
+    title2 : "Proven reliability in operation",
+    description1 : "The Chain Grate Boiler uses a traveling chain mechanism to move solid fuels such as coal or biomass into the combustion chamber, providing steady fuel feeding.",
+    description2 : "This system offers stable performance, low maintenance, and has been widely used for decades in various industries.",
     contactTitle: "One Call Does It All",
     contactNumber: "+1 (800) 123-4567",
-    contactSubtitle: "AEI offers single-source sales, emergency rental, field service and repair of boilers and boiler room equipment.",
+    contactSubtitle: "AEI offers sales, rental, field service and repair of boilers and boiler room equipment.",
     contactButton: "Contact AEI",
     specs: [
-      "Kapasitas besar",
-      "Efisiensi tinggi",
-      "Ramah lingkungan",
-      "Pengurangan emisi"
+      "Reliable operation",
+      "Simple maintenance",
+      "Stable performance",
+      "Durable design"
     ],
-    grid : [
-      // { id: 1, src: ""},
-      // { id: 2, src: ""},
-    ],
+    grid : [],
   },
   "reciprocrating-grate-boiler": {
-    name: "Reciprocrating Grate Boiler",
+    name: "Reciprocating Grate Boiler",
     image: black,
-    description: "Boiler ini menggunakan prinsip pembakaran pada bed yang terfluidisasi...",
-    title1 : "Rugged durability for a variety of fuels.",
-    title2 : "High efficiency and low emissions.",
-    description1 : "The grate is air cooled and divided into three to five zones per lane with one to three lanes in total. The grate bars’ speed and the primary air supply are regulated for each grate zone individually. The individualized control of each zone offers an optimized combustion. The grate bars are made of high-alloyed cast steel and supplied pre-mounted. The grate is function tested before delivery.",
-    description2 : "A reciprocating step grate firing is one of commercialized combustion technologies suitable for burning various types of biomass fuels with varying moisture contents and particle sizes such as wood pallets and refuse-derived fuel.",
+    description: "A moving grate system designed for flexible fuel handling and efficient combustion.",
+    title1 : "Flexible combustion technology",
+    title2 : "Durable design with optimized airflow",
+    description1 : "Reciprocating Grate Boilers use a step-grate firing system where fuel is moved gradually across the grate. This allows different moisture and size fuels to burn efficiently.",
+    description2 : "The system provides controlled combustion, better fuel mixing, and stable operation with minimal manual intervention.",
     contactTitle: "One Call Does It All",
     contactNumber: "+1 (800) 123-4567",
-    contactSubtitle: "AEI offers single-source sales, emergency rental, field service and repair of boilers and boiler room equipment.",
+    contactSubtitle: "AEI offers sales, rental, field service and repair of boilers and boiler room equipment.",
     contactButton: "Contact AEI",
     specs: [
-      "Kapasitas besar",
-      "Efisiensi tinggi",
-      "Ramah lingkungan",
-      "Pengurangan emisi"
+      "Fuel flexibility",
+      "Efficient combustion",
+      "Stable performance",
+      "Robust construction"
     ],
-    grid : [
-      // { id: 1, src: ""},
-      // { id: 2, src: ""},
-    ],
+    grid : [],
   },
   "gas-oil-boiler": {
     name: "Gas & Oil Boiler",
     image: img5,
-    description: "Gas boilers are powered by natural gas or propane and are more efficient than standard boilers",
-    title1 : "Rugged durability for a variety of fuels.",
-    title2 : "High efficiency and low emissions.",
-    description1 : "Gas boilers are powered by natural gas or propane and are more efficient than standard boilers. The fuel for a gas boiler is piped into the boiler from an outside source that is connected directly to the boiler. The distribution of heat using a gas steam boiler depends on its configuration.",
-    description2 : "Gas steam boilers can be used for industrial purposes and low-pressure applications.",
+    description: "Efficient steam and hot water generation using natural gas or oil as fuel.",
+    title1 : "Fast and reliable heating",
+    title2 : "Flexible fuel choices",
+    description1 : "Gas & Oil Boilers are widely used for industrial heating applications, offering quick start-up, high efficiency, and compact designs.",
+    description2 : "They can be configured for natural gas, propane, or oil, providing a dependable energy source across many industries.",
     contactTitle: "One Call Does It All",
     contactNumber: "+1 (800) 123-4567",
-    contactSubtitle: "AEI offers single-source sales, emergency rental, field service and repair of boilers and boiler room equipment.",
+    contactSubtitle: "AEI offers sales, rental, field service and repair of boilers and boiler room equipment.",
     contactButton: "Contact AEI",
     specs: [
-      "Kapasitas besar",
-      "Efisiensi tinggi",
-      "Ramah lingkungan",
-      "Pengurangan emisi"
+      "High efficiency",
+      "Fuel flexibility",
+      "Compact design",
+      "Reliable operation"
     ],
     grid : [
       { id: 1, src: img5grid1},
@@ -151,43 +142,40 @@ export const boilerData: Record<string, BoilerInfo> = {
   "thermal-oil-boiler": {
     name: "Thermal Oil Boiler",
     image: black,
-    description: "Boiler ini menggunakan prinsip pembakaran pada bed yang terfluidisasi...",
-    title1 : "Rugged durability for a variety of fuels.",
-    title2 : "High efficiency and low emissions.",
-    description1 : "A thermal oil boiler fires through a helical coil and generates energy from the hot products of combustion. This, by heating the coil through radiation and convection. The coil heats the thermal oil or fluid that is pumped through the thermal oil boiler. The thermal oil heats coils in various types of heat users.",
-    description2 : "A thermal oil is commonly used as a working fluid that circulate through the absorber tube and transform the solar irradiation into thermal energy and carries heat to heat exchangers or analogous for driving a Rankine steam turbine. The Rankine cycle is an idealized thermodynamic cycle describing the process by which certain heat engines, such as steam turbines or reciprocating steam engines, allow mechanical work to be extracted from a fluid as it moves between a heat source and heat sink.",
+    description: "A heat transfer system using thermal oil instead of steam or water.",
+    title1 : "High temperature with low pressure",
+    title2 : "Safe and efficient heat transfer",
+    description1 : "Thermal Oil Boilers circulate heated oil through a closed-loop system, allowing for precise temperature control without the risks of high-pressure steam.",
+    description2 : "They are ideal for industries requiring stable high temperatures such as chemical, textile, and food processing plants.",
     contactTitle: "One Call Does It All",
     contactNumber: "+1 (800) 123-4567",
-    contactSubtitle: "AEI offers single-source sales, emergency rental, field service and repair of boilers and boiler room equipment.",
+    contactSubtitle: "AEI offers sales, rental, field service and repair of boilers and boiler room equipment.",
     contactButton: "Contact AEI",
     specs: [
-      "Kapasitas besar",
-      "Efisiensi tinggi",
-      "Ramah lingkungan",
-      "Pengurangan emisi"
+      "Stable high temperature",
+      "Safe operation",
+      "Efficient heat transfer",
+      "Low maintenance"
     ],
-    grid : [
-      // { id: 1, src: ""},
-      // { id: 2, src: ""},
-    ],
+    grid : [],
   },
   "ash-bin-system": {
     name: "Ash Bin System",
     image: img10,
-    description: "Boiler ini menggunakan prinsip pembakaran pada bed yang terfluidisasi...",
-    title1 : "Rugged durability for a variety of fuels.",
-    title2 : "High efficiency and low emissions.",
-    description1 : "A power plant is a type of industrial building used to produce electricity using raw materials. To meet society's electrical needs, the majority of power plants use one or more generators that transform mechanical energy into electrical energy. Solar power plants are an exception, as they produce this electricity without the usage of a turbine by using photovoltaic cells.",
-    description2 : "A power plant is a set of equipment and machinery used to generate electrical energy through the process of transforming energy from various energy sources. Most types of power plants produce a 3-phase alternating current mains voltage. In addition, most electricity generation uses synchronous generators powered by prime movers who derive energy from fuel or natural resources. The main components in power plants include primary energy installations, start-up installations, cooling installations and electrical installations. The type of power plant is generally named according to the initial driving force used, including water (PLTA), diesel (PLTD), steam (PLTU), gas (PLTG), gas and steam (PLTGU), geothermal (PLTP), and nuclear (NPP).",
+    description: "An ash handling solution designed to collect and store combustion byproducts safely.",
+    title1 : "Efficient ash collection",
+    title2 : "Reliable storage system",
+    description1 : "The Ash Bin System is engineered to handle ash generated from combustion processes, ensuring clean and safe storage without disrupting boiler operations.",
+    description2 : "It improves plant cleanliness, reduces manual handling, and supports compliance with environmental standards.",
     contactTitle: "One Call Does It All",
     contactNumber: "+1 (800) 123-4567",
-    contactSubtitle: "AEI offers single-source sales, emergency rental, field service and repair of boilers and boiler room equipment.",
+    contactSubtitle: "AEI offers sales, rental, field service and repair of boilers and boiler room equipment.",
     contactButton: "Contact AEI",
     specs: [
-      "Kapasitas besar",
-      "Efisiensi tinggi",
-      "Ramah lingkungan",
-      "Pengurangan emisi"
+      "Efficient ash handling",
+      "Safe storage",
+      "Low maintenance",
+      "Improved cleanliness"
     ],
     grid : [
       { id: 1, src: img10grid1},

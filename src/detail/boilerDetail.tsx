@@ -27,7 +27,7 @@ export default function BoilerDetail() {
               style={{ backgroundImage: `url(${data.image})` }}
             >
               {/* Overlay darken absolute, full cover, opacity dan smooth transition */}
-              <div className="absolute inset-0 bg-black opacity-70 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-black opacity-60 transition-opacity duration-500"></div>
 
               {/* Konten utama di atas overlay */}
               <div className="relative z-10 w-full flex items-center justify-start h-full pt-8 lg:pt-0">
@@ -129,8 +129,8 @@ export default function BoilerDetail() {
                 BOILER EXPERTS
               </h2>
               <p className="text-[14px] lg:text-[20px] leading-[25.2px] lg:leading-[36px] text-center md:text-start font-[400] tracking-[0.7px] lg:tracking-[1px]">
-                Contact IB&amp;M today at (855) 753-BOILER to speak with our sales engineers about
-                selecting the right new or fully reconditioned used oil fired boiler for your facility.
+                 We deliver reliable, energy-efficient boiler solutions tailored to your facility. Call us at (855) 753-2645 to
+                 speak with our engineers today.
               </p>
             </div>
 

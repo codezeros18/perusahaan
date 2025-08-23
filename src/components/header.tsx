@@ -16,24 +16,26 @@ import bgImg3 from '../assets/bg3.jpeg';
 
 const slides = [
   {
-    title: "PERFORMANCE\nUNDER PRESSURE",
+    title: "YOUR TRUSTED PARTNER\nIN BOILER SOLUTIONS",
     subtitle:
-      "IB&M specializes in complete repair and maintenance\nof industrial boilers and auxiliary equipment.",
+      "We deliver complete industrial boiler systems, automation, and maintenance services to keep your operations running at peak performance.",
     image: bgImg1,
   },
   {
-    title: "RELIABLE\nINDUSTRIAL SOLUTIONS",
+    title: "SOLUTIONS FOR MODERN INDUSTRY",
     subtitle:
-      "Turnkey installation and modernization of boiler systems\nfor maximum uptime.",
+      "Our expertise spans boiler installation, modernization, automation, and IoT integration — ensuring efficiency and reliability across industries.",
     image: bgImg2,
   },
   {
-    title: "EXPERTISE IN\nBOILER TECHNOLOGY",
+    title: "EXPERIENCE THAT DRIVES\nRELIABILITY & INNOVATION",
     subtitle:
-      "Decades of experience in boiler repair, maintenance,\nand installation across various industries.",
+      "With years of service in the power and process industries, we provide reliable, safe, and sustainable energy solutions tailored to your needs.",
     image: bgImg3,
   },
 ];
+
+
 
 const Header = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -76,27 +78,51 @@ const Header = () => {
                 <div className="relative z-10 w-full">
                   <div className="max-w-7xl mx-auto pl-12 px-4">
                       <div key={activeIndex} className="max-w-4xl md:pl-12">
-                        <motion.h1 
-                        initial={{ opacity: 0, x: -40 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 0.2, duration: 0.4 }}
-                        className="text-[16px] lg:text-[61px] tracking-normal leading-[20px] lg:leading-[76px] font-bold text-white whitespace-pre-line">
+                        <motion.div
+                          initial="hidden"
+                          animate="show"
+                          variants={{
+                            hidden: {},
+                            show: { transition: { staggerChildren: 0.15 } }
+                          }}
+                        >
+                          <motion.h1 
+                            variants={{
+                              hidden: { opacity: 0, x: -40 },
+                              show: { opacity: 1, x: 0 }
+                            }}
+                            transition={{ duration: 0.4 }}
+                            className="text-[16px] lg:text-[61px] tracking-normal leading-[20px] lg:leading-[76px] font-bold text-white whitespace-pre-line"
+                          >
                             {slide.title}
-                        </motion.h1>
-                        <motion.p
-                        initial={{ opacity: 0, x: -40 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 0.3, duration: 0.4 }}
-                        className="mt-2 lg:mt-6 text-[6px] lg:text-[23px] leading-[6px] lg:leading-[23px] font-[300] text-white/90 whitespace-pre-line">
+                          </motion.h1>
+
+                          <motion.p
+                            variants={{
+                              hidden: { opacity: 0, x: -40 },
+                              show: { opacity: 1, x: 0 }
+                            }}
+                            transition={{ duration: 0.4 }}
+                            className="mt-2 lg:mt-6 text-[6px] lg:text-[23px] leading-[6px] lg:leading-[23px] font-[300] text-white/90 whitespace-pre-line"
+                          >
                             {slide.subtitle}
-                        </motion.p>
-                        <motion.button
-                        initial={{ opacity: 0, x: -40 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 0.4, duration: 0.4 }}
-                        className="mt-4 lg:mt-12 text-[#F37021] text-[4px] lg:text-[15px] font-bold px-3 py-1 lg:px-6 lg:py-2 hover:text-gray-700 transition duration-500 cursor-pointer hover:bg-white border-[1px] border-[#333333] rounded-sm">
-                            LEARN MORE
+                          </motion.p>
+
+                          <motion.button
+                          variants={{
+                            hidden: { opacity: 0, x: -40 },
+                            show: { opacity: 1, x: 0 }
+                          }}
+                          transition={{ duration: 0.1 }}  // ❌ remove delay here
+                          className="mt-4 lg:mt-12 text-[#F37021] text-[4px] lg:text-[15px] font-bold px-3 py-1 lg:px-6 lg:py-2 
+                                    hover:text-gray-700 hover:bg-white transition duration-500 
+                                    cursor-pointer border-[1px] border-[#333333] rounded-sm"
+                        >
+                          LEARN MORE
                         </motion.button>
+
+                        </motion.div>
+
                       </div>
                   </div>
                 </div>

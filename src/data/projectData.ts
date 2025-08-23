@@ -25,47 +25,53 @@ export const projectData: Record<string, ProjectInfo> = {
   "engineering": {
     name: "Engineering",
     image: img1,
-    description: "Fluidized Bed Boiler is an interesting and innovative combustion system used to produce steam",
-    title1 : "Rugged durability for a variety of fuels.",
-    title2 : "High efficiency and low emissions.",
-    description1 : "Fluidized Bed Boiler, FBB is an interesting and innovative combustion system used to produce steam or electricity in a variety of industries. Its greatness is ability to burn a wide array of fuels efficiently, including low-quality coal, biomass, and industrial waste.",
-    description2 : "The fluidized bed boiler process centers on the concept of (fluidization), in which solid fuels such as sand or limestone are suspended and heated by a stream of air or gas flowing through the bed of those particles. The fluidization effect creates an article similar to that of a boiling liquid, allowing better mixing and contact between fuel and combustion air.",
+    description: "Comprehensive engineering solutions for power plants and industrial energy systems.",
+    title1: "Innovative designs tailored to your needs.",
+    title2: "Efficient, safe, and sustainable.",
+    description1:
+      "AEI’s Engineering division provides end-to-end technical expertise in the design and optimization of energy systems, power generation facilities, and industrial equipment. From feasibility studies to detailed design, our team ensures reliability, safety, and performance.",
+    description2:
+      "We specialize in integrating modern technologies such as automation, pollution control, and energy efficiency enhancements. Each project is customized to meet client objectives while maintaining compliance with international standards.",
     contactTitle: "One Call Does It All",
     contactNumber: "+1 (800) 123-4567",
-    contactSubtitle: "AEI offers single-source sales, emergency rental, field service and repair of boilers and boiler room equipment.",
+    contactSubtitle:
+      "AEI delivers complete engineering support—planning, design, and optimization—for power and industrial projects.",
     contactButton: "Contact AEI",
     specs: [
-      "Kapasitas besar",
-      "Efisiensi tinggi",
-      "Ramah lingkungan",
-      "Pengurangan emisi"
+      "Customized design solutions",
+      "Advanced system integration",
+      "Safety & compliance focus",
+      "Sustainable engineering practices",
     ],
-    grid : [
-      { id: 1, src: img1grid1},
-      // { id: 2, src: img1grid2},
+    grid: [
+      { id: 1, src: img1grid1 },
+      // { id: 2, src: img1grid2 },
     ],
   },
   "construction": {
     name: "Construction",
     image: img2,
-    description: "The circulating fluidized bed (CFB) is a type of fluidized bed combustion that utilizes a recirculating loop for even greater efficiency",
-    title1 : "Rugged durability for a variety of fuels.",
-    title2 : "High efficiency and low emissions.",
-    description1 : "The circulating fluidized bed (CFB) is a type of fluidized bed combustion that utilizes a recirculating loop for even greater efficiency of combustion. while achieving lower emission of pollutants. Reports suggest that up to 95% of pollutants can be absorbed before being emitted into the atmosphere.",
-    description2 : "The technology is limited in scale however, due to its extensive use of limestone, and the fact that it produces waste byproducts.",
+    description: "Full-scope construction services for industrial and power generation facilities.",
+    title1: "Precision execution of complex projects.",
+    title2: "Built to last, on time and on budget.",
+    description1:
+      "AEI’s Construction division specializes in the execution of industrial plants, power stations, and supporting infrastructure. We manage projects from site preparation through commissioning with a focus on quality, safety, and reliability.",
+    description2:
+      "Our teams bring extensive experience in handling large-scale energy and industrial projects. With a commitment to efficiency, we ensure smooth coordination between engineering and construction to deliver world-class results.",
     contactTitle: "One Call Does It All",
     contactNumber: "+1 (800) 123-4567",
-    contactSubtitle: "AEI offers single-source sales, emergency rental, field service and repair of boilers and boiler room equipment.",
+    contactSubtitle:
+      "AEI provides turnkey construction solutions, ensuring timely and safe delivery of industrial and energy facilities.",
     contactButton: "Contact AEI",
     specs: [
-      "Kapasitas besar",
-      "Efisiensi tinggi",
-      "Ramah lingkungan",
-      "Pengurangan emisi"
+      "Turnkey project delivery",
+      "Strict safety standards",
+      "Cost-effective solutions",
+      "On-time completion",
     ],
-    grid : [
-      { id: 1, src: img2grid1},
-      { id: 2, src: img2grid2},
+    grid: [
+      { id: 1, src: img2grid1 },
+      { id: 2, src: img2grid2 },
     ],
   },
 };

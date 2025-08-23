@@ -30,10 +30,10 @@ const footer = () => {
 
           {/* CONTACT */}
           <div>
-            <h2 className="text-[20px] leading-[35px] tracking-wide font-[400] mb-2">CONTACT AEI TODAY</h2>
+            <h2 className="text-[20px] leading-[35px] tracking-wide font-[400] mb-2 uppercase">Let’s Get Started</h2>
             <div className="h-[1px] w-8 bg-white mb-4 md:mb-8" />
             <p className="text-[14px] leading-[25px] font-[400] tracking-wide mb-2">
-              We are the leaders in innovative steam plant solutions. Contact the AEI boiler experts.
+              We lead the way in innovative steam plant solutions. Reach out to the AEI boiler experts today.
             </p>
             <ul className="space-y-1">
               {contactInfo.map((item, idx) => (
@@ -56,10 +56,10 @@ const footer = () => {
 
           {/* SERVICES */}
           <div>
-            <h2 className="text-[20px] leading-[35px] tracking-wide font-[400] mb-2">ONE CALL DOES IT ALL</h2>
+            <h2 className="text-[20px] leading-[35px] tracking-wide font-[400] mb-2 uppercase">Solutions That Work</h2>
             <div className="h-[1px] w-8 bg-white mb-4 md:mb-8" />
             <p className="text-[14px] leading-[25px] font-[400] tracking-wide mb-2">
-              AEI is proud to provide end-to-end boiler service and repair as a fully licensed.
+              AEI delivers complete boiler service and repair as a fully licensed contractor.
             </p>
             <ul className="space-y-1">
               {services.map((service, idx) => (
@@ -73,9 +73,9 @@ const footer = () => {
 
           {/* LOCATIONS */}
           <div>
-            <h2 className="text-[20px] leading-[35px] tracking-wide font-[400] mb-2">MULTIPLE LOCATIONS</h2>
+            <h2 className="text-[20px] leading-[35px] tracking-wide font-[400] mb-2 uppercase">Where to Find Us</h2>
             <div className="h-[1px] w-8 bg-white mb-4 md:mb-8" />
-            <p className="text-[14px] leading-[25px] font-[400] tracking-wide mb-2">AEI has 2 service locations:</p>
+            <p className="text-[14px] leading-[25px] font-[400] tracking-wide mb-2">AEI proudly serves customers from two strategic locations:</p>
             <ul className="space-y-1">
               {locations.map((loc, idx) => (
                 <li key={idx} className="flex items-center gap-2">
