@@ -37,7 +37,7 @@ const HomeClose = () => {
                     {item.description}
                 </p>
                 <Link
-                to="/projects" // ganti dengan path tujuan kamu
+                to="/about" // ganti dengan path tujuan kamu
                 className="border text-[13px] leading-[18.5px] tracking-[0.5px] font-[400] border-[#F37021] text-[#F37021] mt-2 md:mt-4 px-6 py-3 rounded hover:bg-[#333333] hover:border-[#333333] cursor-pointer hover:text-white transition inline-block"
                 >
                 {item.button}
