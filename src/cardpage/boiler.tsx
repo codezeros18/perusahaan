@@ -27,7 +27,7 @@ const boiler = () => {
     }
     const boilerProducts = [
     { title: "Fluidized Bed Boiler", image: card1, link: "/boiler-systems/fluidized-bed-boiler" },
-    { title: "CFBC", image: card2, link: "/boiler-systems/cfbc" },
+{ title: "CFBC", image: card2, link: "/boiler-systems/cfbc" },
     { title: "Chain Grate Boiler", image: card5, link: "/boiler-systems/chain-grate-boiler" },
     { title: "Reciprocrating Grate Boiler", image: card5, link: "/boiler-systems/reciprocrating-grate-boiler" },
     { title: "Gas & Oil Boiler", image: card5, link: "/boiler-systems/gas-oil-boiler" },

@@ -4,6 +4,7 @@ import {
   FaInstagram,
   FaEnvelope,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const socialLinks = [
   { icon: FaLinkedinIn, url: "https://linkedin.com", color: "hover:text-blue-600" },
@@ -18,7 +19,12 @@ const HeaderBar = () => {
         {/* Left: Company name + contact */}
         <div className="flex items-center gap-4">
           <span className="tracking-wider">ANUGRAH ENERGI INDONESIA</span>
-          <button className="hover:text-[#F37C1D] transition duration-300 cursor-pointer">CONTACT</button>
+          <Link 
+            to="/contact" 
+            className="hover:text-[#F37C1D] transition duration-300 cursor-pointer"
+          >
+            CONTACT
+          </Link>
         </div>
 
         <div className="flex items-center gap-4">

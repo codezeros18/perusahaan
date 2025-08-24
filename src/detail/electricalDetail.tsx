@@ -1,5 +1,5 @@
 // src/pages/electricalDetail.tsx
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { electricalData } from "../data/electricalData";
 import NavBar from "../layout/navbarwrap";
 import Footer from "../layout/footer";
@@ -30,18 +30,18 @@ export default function ElectricalDetail() {
               <div className="absolute inset-0 bg-black opacity-60 transition-opacity duration-500"></div>
 
               {/* Konten utama di atas overlay */}
-              <div className="relative z-10 w-full flex items-center justify-start h-full pt-8 lg:pt-0">
-                <div className="max-w-7xl mx-2 lg:mx-auto my-10 px-4 text-center w-full">
+              <div className="relative z-10 w-full flex items-center justify-start h-full pt-8 md:pt-0">
+                <div className="max-w-7xl mx-2 md:mx-auto my-10 px-4 text-center w-full">
                   {/* Heading */}
-                  <h2 className="mx-auto max-w-[20rem] lg:max-w-3xl text-[16px] lg:text-[61px] leading-[16px] lg:leading-[61px] tracking-normal lg:tracking-[3px] font-[400] uppercase font-anton text-white">
+                  <h2 className="mx-auto max-w-[20rem] md:max-w-3xl text-[16px] md:text-[61px] leading-[16px] md:leading-[61px] tracking-normal md:tracking-[3px] font-[400] uppercase font-anton text-white">
                     {data.name}
                   </h2>
 
                   {/* Divider */}
-                  <div className="h-[0.5px] w-24 bg-white mx-auto mt-2 lg:mt-5 mb-4 lg:mb-8" />
+                  <div className="h-[0.5px] w-24 bg-white mx-auto mt-2 md:mt-5 mb-4 md:mb-8" />
 
                   {/* Description */}
-                  <p className="max-w-32 lg:max-w-[550px] mx-auto text-[6px] lg:text-[23px] leading-[6px] lg:leading-[24px] font-[400] tracking-normal lg:tracking-[1px] text-white/90 font-dm">
+                  <p className="max-w-32 md:max-w-[550px] mx-auto text-[6px] md:text-[23px] leading-[6px] md:leading-[24px] font-[400] tracking-normal md:tracking-[1px] text-white/90 font-dm">
                     {data.description}
                   </p>
                 </div>
@@ -114,9 +114,9 @@ export default function ElectricalDetail() {
                 <p className="mb-6 text-[#333333]/80 text-[13px] leading-[26px] tracking-[0.7px] font-[400]">
                   {data.contactSubtitle}
                 </p>
-                <button className="bg-orange-500 hover:bg-[#333333] text-[13px] leading-[19.5px] uppercase tracking-[0.52px] text-white py-2 px-6 cursor-pointer rounded transition duration-500 font-[500]">
+                <Link to="/contact" className="bg-orange-500 hover:bg-[#333333] text-[13px] leading-[19.5px] uppercase tracking-[0.52px] text-white py-2 px-6 cursor-pointer rounded transition duration-500 font-[500]">
                   {data.contactButton}
-                </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -136,9 +136,9 @@ export default function ElectricalDetail() {
 
             {/* Kanan: Button */}
             <div className="flex justify-center md:justify-end">
-              <button className="border cursor-pointer border-[#333333]/80 px-8 py-3 flex items-center gap-2 uppercase font-medium tracking-wide hover:bg-white hover:border-white hover:text-[#333333] transition duration-300">
+              <Link to="/contact" className="border cursor-pointer border-[#333333]/80 px-8 py-3 flex items-center gap-2 uppercase font-medium tracking-wide hover:bg-white hover:border-white hover:text-[#333333] transition duration-300">
                 Contact Us
-              </button>
+              </Link>
             </div>
           </div>
         </div>

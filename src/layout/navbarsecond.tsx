@@ -11,9 +11,10 @@ const NavBar = () => {
   const [menuLevel, setMenuLevel] = useState(0);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
 
-  interface SubItem {
+interface SubItem {
   name: string;
   path: string;
+  isStatic?: boolean;
 }
 
 interface NavItem {
@@ -88,13 +89,13 @@ const navItems: NavItem[] = [
   ],
   },
   {
-    label: "Company",
-    path: "company",
-    subItems: [
-      { name: "About Us", path: "about" },
-      { name: "Contact", path: "contact" },
-    ],
-  },
+  label: "Company",
+  path: "company",
+  subItems: [
+    { name: "About Us", path: "about", isStatic: true },
+    { name: "Contact", path: "contact", isStatic: true },
+  ],
+}
 ];
 
   const openSubMenu = (label: NavItem["label"]) => {
@@ -148,7 +149,7 @@ const navItems: NavItem[] = [
                 {item.subItems.map((sub, i) => (
                   <Link
                     key={i}
-                    to={`/${item.path}/${sub.path}`} // ini dinamis
+                    to={sub.isStatic ? `/${sub.path}` : `/${item.path}/${sub.path}`}
                     className="block px-4 py-3 hover:bg-[#F37021] transition-colors duration-200 hover:text-white"
                   >
                     <span className="block text-[12px] transition-transform duration-200 ease-out group/item hover:translate-x-2">
