@@ -259,21 +259,26 @@ const navItems: NavItem[] = [
                 transition={{ duration: 0.36 }}
                 className="absolute top-0 left-0 w-full"
               >
-                {navItems
-                  .find((m) => m.label === activeMenu)
-                  ?.subItems.map((sub, idx) => (
-                    <Link
-                      key={idx}
-                      to={`/${navItems.find((m) => m.label === activeMenu)?.path}/${sub.path}`}
-                      className="block pr-6 ml-6 py-3 border-b-[0.1px] border-b-gray-300 text-[14px] leading-[20px] font-[400] tracking-tight text-[#333333] border-gray-200"
-                      onClick={() => {
-                        setIsOpen(false);
-                        setMenuLevel(0);
-                      }}
-                    >
-                      {sub.name}
-                    </Link>
-                  ))}
+{navItems
+  .find((m) => m.label === activeMenu)
+  ?.subItems.map((sub, idx) => (
+    <Link
+      key={idx}
+      to={
+        sub.isStatic
+          ? `/${sub.path}` // static → langsung
+          : `/${navItems.find((m) => m.label === activeMenu)?.path}/${sub.path}` // dynamic
+      }
+      className="block pr-6 ml-6 py-3 border-b-[0.1px] border-b-gray-300 text-[14px] leading-[20px] font-[400] tracking-tight text-[#333333] border-gray-200"
+      onClick={() => {
+        setIsOpen(false);
+        setMenuLevel(0);
+      }}
+    >
+      {sub.name}
+    </Link>
+  ))}
+
               </motion.div>
             )}
           </AnimatePresence>
